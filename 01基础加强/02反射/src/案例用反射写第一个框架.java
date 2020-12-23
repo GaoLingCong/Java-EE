@@ -38,6 +38,7 @@ public class 案例用反射写第一个框架 {
         //1.2加载配置文件，转换为一个集合
         //1.2.1获取class目录下的配置文件
         ClassLoader classLoader = ReflectPermission.class.getClassLoader();
+        //字节输入流
         InputStream is = classLoader.getResourceAsStream("Pro.properties");
         pro.load(is);
 
