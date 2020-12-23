@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java-EE.iml" filepath="$PROJECT_DIR$/Java-EE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01基础加强/01基础加强.iml" filepath="$PROJECT_DIR$/01基础加强/01基础加强.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01基础加强/02反射/02反射.iml" filepath="$PROJECT_DIR$/01基础加强/02反射/02反射.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-EE.iml" filepath="$PROJECT_DIR$/.idea/Java-EE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01基础加强/01Junit单元测试/src/Junit/Junit.iml" filepath="$PROJECT_DIR$/01基础加强/01Junit单元测试/src/Junit/Junit.iml" />
     </modules>
   </component>
 </project>
