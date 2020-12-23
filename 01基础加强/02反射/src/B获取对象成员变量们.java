@@ -92,18 +92,5 @@ public class B获取对象成员变量们 {
         System.out.println(value2);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

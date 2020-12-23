@@ -61,18 +61,6 @@ public class D获取对象成员方法们 {
         String classname = personClass.getName();
         System.out.println(classname);
 
-
-
     }
-
-
-
-
-
-
-
-
-
-
 
 }
