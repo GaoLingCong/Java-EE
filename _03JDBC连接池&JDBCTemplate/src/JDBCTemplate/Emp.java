@@ -9,6 +9,8 @@ public class Emp {
     private Integer mgr;
     private Date joindate;
     private Double salary;
+
+
     private Double bonus;
     private Integer dept_id;
 
@@ -17,9 +19,7 @@ public class Emp {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
+
 
     public String getEname() {
         return ename;
