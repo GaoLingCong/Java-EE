@@ -6,7 +6,7 @@ import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-public class _1C3P0演示 {
+public class _1_C3P0演示 {
     public static void main(String[] args) throws SQLException {
         //1.创建数据库连接池对象
         DataSource ds = new ComboPooledDataSource();
