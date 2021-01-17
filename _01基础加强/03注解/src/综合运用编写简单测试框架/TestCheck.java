@@ -33,10 +33,8 @@ public class TestCheck {
                     method.invoke(c);
                 } catch (Exception e) {
                     //6.捕获异常
-
                     //记录到文件中
                     number ++;
-
                     bw.write(method.getName()+ " 方法出异常了");
                     bw.newLine();
                     bw.write("异常的名称:" + e.getCause().getClass().getSimpleName());
