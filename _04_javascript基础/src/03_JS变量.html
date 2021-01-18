@@ -1,0 +1,78 @@
+<!--2. 多行注释：/*注释内容*/
+3. 数据类型：
+1. 原始数据类型(基本数据类型)：
+1. number：数字。 整数/小数/NaN(not a number 一个不是数字的数字类型)
+2. string：字符串。 字符串  "abc" "a" 'abc'
+3. boolean: true和false
+4. null：一个对象为空的占位符
+5. undefined：未定义。如果一个变量没有给初始化值，则会被默认赋值为undefined
+
+2. 引用数据类型：对象
+
+4. 变量
+* 变量：一小块存储数据的内存空间
+* Java语言是强类型语言，而JavaScript是弱类型语言。
+* 强类型：在开辟变量存储空间时，定义了空间将来存储的数据的数据类型。只能存储固定类型的数据
+* 弱类型：在开辟变量存储空间时，不定义空间将来的存储数据类型，可以存放任意类型的数据。
+* 语法：
+* var 变量名 = 初始化值;
+
+* typeof运算符：获取变量的类型。
+* 注：null运算后得到的是object-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        //定义变量
+        var a = 3;
+        alert(a);
+
+
+        a="abc";
+        alert(a)
+
+
+        //定义number类型
+        var num = 1;
+        var num2 = 1.2;
+        var num3 = NaN;
+
+        //输出道页面上
+        document.write(num+"<br>");
+        document.write(num2+"<br>");
+        document.write(num3+"<br>");
+
+
+        //定义String类型
+
+        var str = "abc";
+        var str2 = 'edf';
+        document.write(str+"<br>");
+        document.write(str2+"<br>");
+
+        //定义boolean类型
+        var flag  = true;
+        document.write(flag+"<br>");
+
+        //定义null，undefined
+        var obj = null;
+        var obj2 = undefined;
+        var obj3;
+        document.write(obj+"<br>");
+        document.write(obj2+"<br>");
+        document.write(obj3+"<br>");
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
