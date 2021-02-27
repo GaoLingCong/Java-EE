@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
 
 import java.io.FileWriter;
-import java.util.*;
 
 public class JacksonTest {
 
